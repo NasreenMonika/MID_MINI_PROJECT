@@ -20,6 +20,7 @@
 			{
 				
 				$_SESSION['id']  = $uid;
+				$_SESSION['name']  = $user['Name'];
 				if($user['usertype']=='admin')
 				{
 					header('location: adminHome.php');
